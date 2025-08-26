@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+numpy
+Pillow
+python-dotenv
+Jinja2
+weasyprint
+openai
+

@@ -1,0 +1,74 @@
+# Python バイトコードやキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*
+
+# IDE 設定ファイル
+.vscode/
+.idea/
+
+# OS 特有のファイル
+.DS_Store
+Thumbs.db
+
+# ログ・一時ファイル
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 出力ファイル・キャッシュ
+*.out
+*.pid
+*.seed
+*.json
+*.sqlite3
+*.db
+
+# Jupyter Notebook チェックポイント
+.ipynb_checkpoints/
+
+# Python パッケージ関連
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+develop-eggs/
+lib/
+lib64/
+__pypackages__/
+
+# PyInstaller
+*.spec
+
+# Streamlit キャッシュ
+.streamlit/
+
+# メディアファイル（必要に応じて）
+uploads/
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# ユーザーデータや出力HTML/PDF
+output/
+*.pdf
+*.html

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: "Noto Sans JP", "Arial", sans-serif; margin: 2em; }
+        h1 { font-size: 24px; }
+        p { font-size: 16px; }
+        img { max-width: 100%; height: auto; display: block; margin: 1em auto; }
+        .section { margin-bottom: 2em; }
+    </style>
+</head>
+<body>
+    <h1>📸 写真講評レポート</h1>
+    <div class="section">
+        <img src="data:image/jpeg;base64,{{ image_base64 }}" alt="写真">
+    </div>
+    <div class="section">
+        <h2>📝 構図</h2>
+        <p>{{ composition }}</p>
+        <h2>💡 明るさ</h2>
+        <p>{{ brightness }}</p>
+        <h2>🔍 シャープさ</h2>
+        <p>{{ sharpness }}</p>
+        <h2>🤖 GPT講評</h2>
+        <p>{{ comment }}</p>
+    </div>
+</body>
+</html>
