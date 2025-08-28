@@ -1,7 +1,6 @@
 streamlit
-opencv-python
-Pillow
+opencv-python-headless
 numpy
+Pillow
 jinja2
-weasyprint
-openai>=1.0.0
+openai
